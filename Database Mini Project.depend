@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1547088062 source:c:\sololearn c++\database mini project\main.cpp
+	<bits/stdc++.h>
+	<iomanip>
+	"Account.h"
+
+1547088062 c:\sololearn c++\database mini project\account.h
+
+1547088642 source:c:\sololearn c++\database mini project\account.cpp
+	"Account.h"
+	<bits/stdc++.h>
+	<iomanip>
+
