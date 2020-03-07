@@ -1,3 +1,3 @@
-# The-Archive
+# Simple Password Keeper
 
-Please add more features to the software.
+It's pretty simple :)
