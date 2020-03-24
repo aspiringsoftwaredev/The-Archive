@@ -1,3 +1,3 @@
-# Simple Password Keeper
+# Password Keeper
 
-It's pretty simple :)
+A password keeper software.
