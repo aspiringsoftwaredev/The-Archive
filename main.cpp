@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 #include <iomanip>
 #include "Account.h"
 
@@ -31,6 +31,4 @@ int main()
         }
 
     }
-    getchar();
-
 }
