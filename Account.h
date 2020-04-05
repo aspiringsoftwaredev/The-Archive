@@ -13,6 +13,7 @@ public:
     void write_rec();
     void rec_number();
     void search_rec();
+    void display_all_data();
 };
 
 #endif // ACCOUNT_H

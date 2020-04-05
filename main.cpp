@@ -12,6 +12,7 @@ int main()
         std::cout<<"\nSelect one option below: ";
         std::cout<<"\n1. Add a username and its password";
         std::cout<<"\n2. Search a username";
+	std::cout<<"\n3. Show all data";
         std::cout<<"\nEnter your choice: ";
         std::cin>>choice;
 
@@ -25,6 +26,10 @@ int main()
         case 2:
             A.search_rec();
             break;
+
+	case 3:
+	    A.display_all_data();
+	    break;
 
         default:
             return 0;

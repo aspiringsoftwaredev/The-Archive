@@ -64,3 +64,22 @@ void Account::search_rec()
     infile.read(reinterpret_cast<char*>(this), sizeof(*this));
     show_data();
 }
+
+void Account::display_all_data()
+{
+	std::ifstream infile;
+	infile.open("records.passrec", std::ios::binary);
+	if(!infile)
+	{
+		cout << "\nError in opening. FIle not found!\n";
+		return;
+	}
+	infile.seekg(0, std::ios::end);
+	int count = infile.tellg()/sizeof(*this);
+	for (int datum = 0; datum < count; datum++)
+	{
+		infile.seekg((datum)*sizeof(*this));
+		infile.read(reinterpret_cast<char*>(this), sizeof(*this));
+		show_data();
+	}
+}
